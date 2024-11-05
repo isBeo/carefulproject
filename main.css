@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    outline:1px solid red;
+}
+
+:root{
+    --headerLogoSize:1.4em;
+    --headerLogoColor:#f9faf8;
+    --drkbg:#1f2937;
+    --heroMtxtSize:3em;
+    --heroMtxtColor:#f9faf8;
+    --heroMtxtWeight:900;
+    --heroStxtSize:1.2em;
+    --heroStxtColor:#e5e7eb;
+    --btnColor:#3882f6;
+    --infoTxtSize:2em;
+    --infoTxtColor:#1f2937;
+    --infoTxtWeight:900;
+    --quoteSectionbg:#e5e7eb;
+    --quoteTxtColor:--#1f2937;
+    --quoteTxtSize:2.2em;
+    --quoteTxtWeight:light;
+    --quoteTxtStyle:italic;
+}
+
+
+body{
+    font-family: roboto , sans-serif;
+    min-width: 375px;
+    margin-inline:auto;
+    background-color: black;
+}
